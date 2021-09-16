@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/stylesportfolio.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,6 +12,7 @@
     <title>WebStudio</title>
 </head>
 <body>
+    <!-- Header -->
     <header class="header">
         <nav class="header-nav">
             <a href="#" class="logo header-logo link"><span class="link-span">Web</span>Studio</a>
@@ -27,35 +28,82 @@
             <li class="header-item"><a class="header-tel-link link" href="tel:+38 096 111 11 11">+38 096 111 11 11</a></li>
         </ul>
     </header>
+
+    <!-- Main -->
     <main>
         <section>
-            <nav>
-                <ul>
-                    <li><a href="#">Все</a></li>
-                    <li><a href="#">Веб-сайты</a></li>
-                    <li><a href="#">Приложения</a></li>
-                    <li><a href="#">Дизайн</a></li>
-                    <li><a href="#">Маркетинг</a></li>
+            <nav class="filter-nav">
+                <ul class="filter-list list">
+                    <li class="filter-item"><a class="filter-link active link" href="#">Все</a></li>
+                    <li class="filter-item"><a class="filter-link link" href="#">Веб-сайты</a></li>
+                    <li class="filter-item"><a class="filter-link link" href="#">Приложения</a></li>
+                    <li class="filter-item"><a class="filter-link link" href="#">Дизайн</a></li>
+                    <li class="filter-item"><a class="filter-link link" href="#">Маркетинг</a></li>
                 </ul>
             </nav>
-            <ul>
-                <li>
+            <ul class="product-list list">
+                <li class="product-item">
                     <img src="./images/img.png" alt="Img1">
-                    <h3>Технокряк</h3>
-                    <p>Веб-сайт</p>
+                    <h3 class="product-title">Технокряк</h3>
+                    <p class="product-description">Веб-сайт</p>
                 </li>
-                <li></li>
-                <li></li>
+                <li class="product-item">
+                    <img src="./images/img-1.png" alt="Img2">
+                    <h3 class="product-title">Постер New Orlean vs Golden Star</h3>
+                    <p class="product-description">Дизайн</p>
+                </li>
+                <li class="product-item">
+                    <img src="./images/img-2.png" alt="Img3">
+                    <h3 class="product-title">Ресторан Seafood</h3>
+                    <p class="product-description">Приложение</p>
+                </li>
 
-                <li></li>
-                <li></li>
-                <li></li>
 
-                <li></li>
-                <li></li>
-                <li></li>
+                <li class="product-item">
+                    <img src="./images/img-3.png" alt="Img4">
+                    <h3 class="product-title">Проект Prime</h3>
+                    <p class="product-description">Маркетинг</p>
+                </li>
+                <li class="product-item">
+                    <img src="./images/img-4.png" alt="Img5">
+                    <h3 class="product-title">Проект Boxes</h3>
+                    <p class="product-description">Приложение</p>
+                </li>
+                <li class="product-item">
+                    <img src="./images/img-5.png" alt="Img6">
+                    <h3 class="product-title" lang="en">Inspiration has no Borders</h3>
+                    <p class="product-description">Веб-сайт</p>
+                </li>
+
+
+                <li class="product-item">
+                    <img src="./images/img-6.png" alt="Img7">
+                    <h3 class="product-title">Издание Limited Edition</h3>
+                    <p class="product-description">Дизайн</p>
+                </li>
+                <li class="product-item">
+                    <img src="./images/img-7.png" alt="Img8">
+                    <h3 class="product-title">Проект LAB</h3>
+                    <p class="product-description">Маркетинге</p>
+                </li>
+                <li class="product-item">
+                    <img src="./images/img-8.png" alt="Img9">
+                    <h3 class="product-title" lang="en">Growing Business</h3>
+                    <p class="product-description">Приложение</p>
+                </li>
             </ul>
         </section>
     </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="#" class="footer-logo link"><span class="link-span">Web</span>Studio</a>
+        <address class="footer-address">г. Киев, пр-т Леси Украинки, 26</address>
+        <ul class="footer-list list">
+            <li class="footer-item"><a class="footer-email-link link"
+                    href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="footer-item"><a class="footer-tel-link link" href="tel:+38 096 111 11 11">+38 096 111 11 11</a></li>
+        </ul>
+    </footer>
 </body>
 </html>
